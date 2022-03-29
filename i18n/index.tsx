@@ -1,23 +1,24 @@
 export interface Locale {
     locale: string;
-    navbar_menu: {
-        title: string;
-            options: {
-                buttons: {
-                    discord: {
-                        btn_title: string;
-                    };
-                    twitter: {
-                        btn_title: string;
-                    };
-                    support: {
-                        btn_title: string
-                    };
-                    home: {
-                        btn_title: string;
-                    }
-                }
+    title: string;
+    options: {
+        buttons: {
+            discord: {
+                btn_title: string;
             };
+            twitter: {
+                btn_title: string;
+            };
+            support: {
+                btn_title: string
+            };
+            home: {
+                btn_title: string;
+            }
+        }
+    };
+    navbar_menu: {
+        title: "Link Cord",
             links: {
                 about: string;
                 home: string;

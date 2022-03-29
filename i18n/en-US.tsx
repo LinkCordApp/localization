@@ -2,24 +2,25 @@ import type { Locale } from ".";
 
 export const table: Locale = {
     locale: 'English',
-    navbar_menu: {
     title: "Link Cord",
-            options: {
-                buttons: {
-                    discord: {
-                        btn_title: "Our Discord"
-                    },
-                    twitter: {
-                        btn_title: "Our Twitter"
-                    },
-                    support: {
-                        btn_title: "Support"
-                    },
-                    home: {
-                        btn_title: "Back Home"
-                    }
-                }
+    options: {
+        buttons: {
+            discord: {
+                btn_title: "Our Discord"
             },
+            twitter: {
+                btn_title: "Our Twitter"
+            },
+            support: {
+                btn_title: "Support"
+            },
+            home: {
+                btn_title: "Back Home"
+            }
+        }
+    },
+    navbar_menu: {
+        title: "Link Cord",
             links: {
                 about: "About",
                 home: "Home",
