@@ -17,6 +17,8 @@ Localization files for the Link Cord Website.
             └── en-US.tsx
 ```
 
-## Please follow the layout provided on [types](./i18n/index.tsx)
+## Contributing 
+- Submit a PR (Pull Request) with your Changes/Lang Files
+- Please follow the layout provided on [types](./i18n/index.tsx)
 
 
