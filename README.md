@@ -1,4 +1,4 @@
-i18n
+# Link Cord i18n
 Localization files for the Link Cord Website.
 
 ---
