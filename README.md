@@ -20,6 +20,6 @@ Localization files for the Link Cord Website.
 ## Contributing 
 - Submit a PR (Pull Request) with your Changes/Lang Files
 - Please follow the layout provided on [types](./i18n/index.tsx)
-- The layout interface should be implemented into the locale files see [en-US](./i18n/en-US.tsx) for an example
+- The layout interface should be implemented/imported into the locale files see [en-US](./i18n/en-US.tsx) for an example
 
 
