@@ -31,6 +31,7 @@ export interface Locale {
                 home: string;
                 discord: string;
                 status: string;
+                login: string;
             };
             user_dropdown: {
                 settings: string;
@@ -95,6 +96,146 @@ export interface Locale {
                         role: string;
                         desc: string;
                     }
+                }
+            }
+        },
+        status_page: {
+            operational: string;
+            minor_outage: string;
+            service_list: {
+                authorization: string;
+                cloudflare: string;
+                database: string;
+                website: string;
+            }
+        },
+        terms_page: {
+            title_txt1: string;
+            title_txt2: string;
+            description: string;
+            sections: {
+                terms: {
+                    title: string;
+                    description: string;
+                },
+                use_license: {
+                    title: string;
+                    description: string;
+                    list_items: {
+                        item_1: string;
+                        item_2: string;
+                        item_3: string;
+                        item_4: string;
+                        item_5: string;
+                    },
+                    conclusion: string;
+                },
+                disclaimer: {
+                    title: string;
+                    description: string;
+                },
+                limitations: {
+                    title: string;
+                    description: string;
+                },
+                revisions: {
+                    title: string;
+                    description: string
+                },
+                links: {
+                    title: string;
+                    description: string;
+                },
+                modifications: {
+                    title: string;
+                    description: string;
+                },
+                your_privacy: {
+                    title: string;
+                    base_text: {
+                        text_1: string;
+                        text_2: string;
+                        text_3: string;
+                    }
+                },
+                governing_law: {
+                    title: string;
+                    description: string;
+                }
+            }
+        },
+        privacy_page: {
+            title_txt1: string;
+            title_txt2: string;
+            description1: string;
+            description2: string;
+            description3: string;
+            sections: {
+                your_consent: {
+                    title: string;
+                    desc1: string;
+                    desc2: string;
+                },
+                collected_data: {
+                    title: string;
+                    description: string;
+                },
+                data_usage: {
+                    title: string;
+                    description: string
+                    list_items: {
+                        item_1: string;
+                        item_2: string;
+                        item_3: string;
+                        item_4: string;
+                        item_5: string;
+                        item_6: string;
+                        item_7: string;
+                    }
+                },
+                log_files: {
+                    title: string;
+                    description: string;
+                },
+                cookies: {
+                    title: string;
+                    description: string;
+                },
+                advertising: {
+                    title: string;
+                    description: string;
+                },
+                third_partys: {
+                    title: string;
+                    description: string;
+                },
+                ccpa_policy: {
+                    title: string;
+                    description: string;
+                    list_items: {
+                        item_1: string;
+                        item_2: string;
+                        item_3: string;
+                    },
+                    conclusion: string;
+                    conclusion_link: string;
+                },
+                gdpr_policy: {
+                    title: string;
+                    description: string;
+                    list_items: {
+                        item_1: string;
+                        item_2: string;
+                        item_3: string;
+                        item_4: string;
+                    },
+                    conclusion: string;
+                    conclusion_link: string;
+                },
+                childrens_info: {
+                    title: string;
+                    description: string;
+                    conclusion: string;
                 }
             }
         },
