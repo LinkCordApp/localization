@@ -1,11 +1,12 @@
 module.exports = {
-  defaultLocale: 'en-US',
+  defaultLocale: 'English',
   locales: [
-    'en-US', 
-    'es-ES'
+    'English', 
+    'Spanish'
   ],
   pages: {
     '*': ['common'],
-    '/': ['home'],
+    '/': ['home', 'dashboard', 'status', 'profile', 'terms', 'privacy'],
+    '/about': ['about']
   },
 }
