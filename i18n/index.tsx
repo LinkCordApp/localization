@@ -1,6 +1,13 @@
 export interface Locale {
     locale: string;
+    name: string;
+    icon: string;
     title: string;
+    cookies: string;
+    locales: {
+        English: string;
+        Spanish: string;
+    },
     options: {
         buttons: {
             discord: {
@@ -18,7 +25,7 @@ export interface Locale {
         }
     };
     navbar_menu: {
-        title: "Link Cord",
+        title: string,
             links: {
                 about: string;
                 home: string;
@@ -92,11 +99,12 @@ export interface Locale {
             }
         },
         footer: {
+            vercel: {
+                powered_by: string;
+                and_text: string;
+            },
             credits: {
-                copyright: string;
-                vercel_txt: {
-                    primary: string;
-                    secondary: string;
+                   copyright: string;
                 },
                 sections: {
                     info: {
@@ -127,4 +135,3 @@ export interface Locale {
                 }
             }
         }
-}
