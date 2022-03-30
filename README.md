@@ -10,14 +10,19 @@ Localization files for the Link Cord Website.
 
 ## File Structure
 ```
+# Base Files
 └── i18n.config.js
+
+# Locale Directory
  ├── i18n
-  ├── index.tsx
-   ├── locales
-    ├── English
-     └── English.tsx
-      ├── Spanish
-       └── Spanish.tsx
+  └── index.tsx
+  
+# Locales Directory
+ ├── locales
+  ├── English
+   └── English.tsx
+  ├── Spanish
+   └── Spanish.tsx
 ```
 
 ---
