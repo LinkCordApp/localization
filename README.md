@@ -13,7 +13,7 @@ Localization files for the Link Cord Website.
 # Base Files
 └── i18n.config.js
 
-# Locale Directory
+# Locale Types
  ├── i18n
   └── index.tsx
   
