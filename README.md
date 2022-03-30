@@ -3,8 +3,9 @@ Localization files for the Link Cord Website.
 
 ---
 
-## Support Languages
-- English - US
+## Supported Languages
+- English
+- Spansih
 
 ---
 
