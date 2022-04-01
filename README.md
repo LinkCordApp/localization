@@ -19,6 +19,8 @@ Localization files for the Link Cord Website.
   └── index.tsx
   
 # Locales Directory
+
+ ├── i18n
  ├── locales
   ├── English
    └── English.tsx
