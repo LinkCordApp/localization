@@ -9,6 +9,7 @@ export const table: Locale = {
     locales: {
         English: "English",
         Spanish: "Spanish",
+        German: "German"
     }, 
     options: {
         buttons: {
@@ -104,13 +105,88 @@ export const table: Locale = {
             }
         },
         status_page: {
-            operational: "All Systems Fully Operational",
+            operational: "All systems Operational",
             minor_outage: "Minor Outage",
             service_list: {
                 authorization: "Authorization",
                 cloudflare: "Cloudflare",
                 database: "Database",
                 website: "Website"
+            }
+        },
+        dashboard_page: {
+            note: {
+                flag: 'NOTE',
+                title: 'A Username is required to interact with and view your profile page!'
+            },
+            buttons: {
+                view: 'View Page!',
+                auth: 'Logout'
+            },
+            website: {
+                title: "Website's and Username",
+                options: {
+                    username: 'Username',
+                    website: 'Website',
+                    discord: 'Discord',
+                    blog: 'Blog'
+                }
+            },
+            socials: {
+                title: 'Social Media Links',
+                options: {
+                instagram: 'Instagram',
+                facebook: 'Facebook',
+                youtube: 'Youtube',
+                twitter: 'Twitter',
+                linkedin: 'LinkedIn',
+                twitch: 'Twitch'
+                }
+            },
+            music_promo: {
+                title: 'Music Promo Links',
+                options: {
+                spotify: 'Spotify',
+                soundcloud: 'Soundcloud'
+                }
+            },
+            developer: {
+                title: 'Developer Links',
+                options: {
+                github: 'GitHub',
+                gitlab: 'GitLab',
+                devto: 'Dev.to',
+                codepen: 'CodePen'
+                }
+            }
+        },
+        settings_page: {
+            title1: "User",
+            title2: "Settings",
+            description: "Customize your Link Cord Experience!",
+            themes: {
+                title1: "Theme",
+                title2: "Settings",
+                current: "Current Theme:",
+                description: "Choose from one of our Beautiful Pre-configured list of Website Themes!",
+                gray: {
+                    title: "Select a Gray Theme and Accent",
+                    list: {
+                        theme_1: "Teal Dark",
+                        theme_2: "Teal Light",
+                        theme_3: "Blurple Dark",
+                        theme_4: "Blurple Light"
+                    }
+                }, 
+                slate: {
+                    title: "Select a Slate Theme and Accent",
+                    list: {
+                        theme_1: "Teal Dark",
+                        theme_2: "Teal Light",
+                        theme_3: "Blurple Dark",
+                        theme_4: "Blurple Light"
+                    }
+                }
             }
         },
         terms_page: {

@@ -1,7 +1,7 @@
 import type { Locale } from "../..";
 
 export const table: Locale = {
-    locale: 'Deutsch',
+    locale: 'German',
     name: 'Deutsch',
     icon: '/de-DE.png',
     title: "Link Cord",
@@ -31,10 +31,10 @@ export const table: Locale = {
         title: "Link Cord",
             links: {
                 about: "Über uns",
-                home: "Home",
-                discord: "Discord",
+                home: "Startseite",
+                discord: "Diskord",
                 status: "Status",
-                login: "Login"
+                login: "Anmeldung"
             },
     
             user_dropdown: {
@@ -114,6 +114,81 @@ export const table: Locale = {
                 website: "Website"
             }
         },
+        dashboard_page: {
+            note: {
+                flag: 'HINWEIS',
+                title: 'Ein Benutzername ist erforderlich, um mit Ihrer Profilseite zu interagieren und sie anzusehen!'
+            },
+            buttons: {
+                view: 'Seite anzeigen!',
+                auth: 'Abmeldung'
+            },
+            website: {
+                title: "Website und Benutzername",
+                options: {
+                    username: 'Benutzername',
+                    website: 'Website',
+                    discord: 'Diskord',
+                    blog: 'Blog'
+                }
+            },
+            socials: {
+                title: 'Links zu sozialen Medien',
+                options: {
+                instagram: 'Instagram',
+                facebook: 'Facebook',
+                youtube: 'Youtube',
+                twitter: 'Twitter',
+                linkedin: 'LinkedIn',
+                twitch: 'Twitch'
+                }
+            },
+            music_promo: {
+                title: 'Music Promo Links',
+                options: {
+                spotify: 'Spotify',
+                soundcloud: 'Soundcloud'
+                }
+            },
+            developer: {
+                title: 'Links für Entwickler',
+                options: {
+                github: 'GitHub',
+                gitlab: 'GitLab',
+                devto: 'Dev.to',
+                codepen: 'CodePen'
+                }
+            }
+        },
+        settings_page: {
+            title1: "Benutzer",
+            title2: "Einstellungen",
+            description: "Passen Sie Ihr Link Cord Erlebnis an!",
+            themes: {
+                title1: "Thema",
+                title2: "Einstellungen",
+                current: "Aktuelles Thema:",
+                description: "Wählen Sie aus einer unserer schönen vorkonfigurierten Liste von Website-Themen!",
+                gray: {
+                    title: "Wählen Sie ein graues Thema und einen grauen Akzent",
+                    list: {
+                        theme_1: "Teal Dunkel",
+                        theme_2: "Blaugrünes Licht",
+                        theme_3: "Unscharf Dunkel",
+                        theme_4: "Verschwommenes Licht"
+                    }
+                }, 
+                slate: {
+                    title: "Wählen Sie ein Schiefermotiv und einen Akzent",
+                    list: {
+                        theme_1: "Teal Dunkel",
+                        theme_2: "Blaugrünes Licht",
+                        theme_3: "Unscharf Dunkel",
+                        theme_4: "Verschwommenes Licht"
+                    }
+                }
+            }
+        },
         terms_page: {
             title_txt1: "Regeln,",
             title_txt2: "Richtlinien",
@@ -137,7 +212,7 @@ export const table: Locale = {
                 },
                 disclaimer: {
                     title: "Disclaimer",
-                    description: "Alle Materialien auf der Link Cord Website werden "wie besehen" zur Verfügung gestellt. Link Cord gibt keine Garantien, weder ausdrücklich noch stillschweigend, und schließt daher alle anderen Garantien aus. Darüber hinaus gibt Link Cord keine Zusicherungen hinsichtlich der Genauigkeit oder Zuverlässigkeit der Nutzung der Materialien auf seiner Website oder in anderer Weise in Bezug auf diese Materialien oder auf Websites, die mit dieser Website verknüpft sind.",
+                    description: "Alle Materialien auf der Link Cord Website werden 'wie besehen' zur Verfügung gestellt. Link Cord gibt keine Garantien, weder ausdrücklich noch stillschweigend, und schließt daher alle anderen Garantien aus. Darüber hinaus gibt Link Cord keine Zusicherungen hinsichtlich der Genauigkeit oder Zuverlässigkeit der Nutzung der Materialien auf seiner Website oder in anderer Weise in Bezug auf diese Materialien oder auf Websites, die mit dieser Website verknüpft sind.",
                 },
                 limitations: {
                     title: "Einschränkungen",
@@ -255,23 +330,23 @@ export const table: Locale = {
                 sections: {
                     info: {
                         section_title: "Info",
-                        primary_link: "Über uns",
-                        secondary_link: "Unser Team" 
+                        primary_link: "Über",
+                        secondary_link: "Team" 
                     },
                     user: {
                         section_title: "Nutzer",
                         primary_link: "Dashboard",
-                        secondary_link: "Einstellungen"
+                        secondary_link: "Einstellung"
                     },
                     support: {
                         section_title: "Support",
-                        primary_link: "Discord",
+                        primary_link: "Diskord",
                         secondary_link: "Twitter"
                     },
                     legal: {
                         section_title: "Legales",
-                        primary_link: "Bedingungen",
-                        secondary_link: "Datenschutz"
+                        primary_link: "Begriffe",
+                        secondary_link: "Politik"
                     },
                     misc: {
                         section_title: "Nützliches",
