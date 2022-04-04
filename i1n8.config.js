@@ -2,7 +2,8 @@ module.exports = {
   defaultLocale: 'English',
   locales: [
     'English', 
-    'Spanish'
+    'Spanish',
+    'German'
   ],
   pages: {
     '*': ['common'],
