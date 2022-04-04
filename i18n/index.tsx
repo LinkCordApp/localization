@@ -7,6 +7,7 @@ export interface Locale {
     locales: {
         English: string;
         Spanish: string;
+        German: string;
     },
     options: {
         buttons: {
@@ -107,6 +108,81 @@ export interface Locale {
                 cloudflare: string;
                 database: string;
                 website: string;
+            }
+        },
+        dashboard_page: {
+            note: {
+                flag: string;
+                title: string;
+            },
+            buttons: {
+                view: string;
+                auth: string;
+            },
+            website: {
+                title: string;
+                options: {
+                    username: string;
+                    website: string;
+                    discord: string;
+                    blog: string;
+                }
+            },
+            socials: {
+               title: string;
+               options: {
+                instagram: string;
+                facebook: string;
+                youtube: string;
+                twitter: string;
+                linkedin: string;
+                twitch: string;
+               }
+            },
+            music_promo: {
+                title: string;
+                options: {
+                spotify: string;
+                soundcloud: string;
+                }
+            },
+            developer: {
+                title: string;
+                options: {
+                github: string;
+                gitlab: string;
+                devto: string;
+                codepen: string;
+                }
+            }
+        },
+        settings_page: {
+            title1: string;
+            title2: string;
+            description: string;
+            themes: {
+                title1: string;
+                title2: string;
+                current: string;
+                description: string;
+                gray: {
+                    title: string
+                    list: {
+                        theme_1: string;
+                        theme_2: string;
+                        theme_3: string;
+                        theme_4: string;
+                    }
+                }, 
+                slate: {
+                    title: string
+                    list: {
+                        theme_1: string;
+                        theme_2: string;
+                        theme_3: string;
+                        theme_4: string;
+                    }
+                }
             }
         },
         terms_page: {
