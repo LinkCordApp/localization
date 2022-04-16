@@ -2,7 +2,7 @@ import type { Locale } from "../..";
 
 export const table: Locale = {
     locale: 'German',
-    name: 'Deutsch',
+    name: 'Italiano',
     icon: '/de-DE.png',
     title: "Link Cord",
     cookies: "Wir nutzen Cookies!",
@@ -10,6 +10,7 @@ export const table: Locale = {
         English: "English",
         Spanish: "Spanish",
         German: "Deutsch",
+        Italian: "Italienisch"
     }, 
     options: {
         buttons: {
@@ -33,13 +34,17 @@ export const table: Locale = {
                 about: "Über uns",
                 home: "Startseite",
                 discord: "Diskord",
+                partners: "Partners",
                 status: "Status",
                 login: "Anmeldung"
             },
     
             user_dropdown: {
+                edit: "Profil bearbeiten",
                 settings: "Einstellungen", 
-                dashboard: "Dashboard"
+                dashboard: "Dashboard",
+                profile: "Profil",
+                logout: "Abmeldung"
             },
     
             news_banner: {

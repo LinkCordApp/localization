@@ -8,6 +8,7 @@ export interface Locale {
         English: string;
         Spanish: string;
         German: string;
+        Italian: string;
     },
     options: {
         buttons: {
@@ -31,12 +32,16 @@ export interface Locale {
                 about: string;
                 home: string;
                 discord: string;
+                partners: string;
                 status: string;
                 login: string;
             };
             user_dropdown: {
+                edit: string;
                 settings: string;
                 dashboard: string;
+                profile: string;
+                logout: string;
             };
             news_banner: {
                 primary_title: string;

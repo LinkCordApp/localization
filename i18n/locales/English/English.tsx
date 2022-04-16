@@ -9,7 +9,8 @@ export const table: Locale = {
     locales: {
         English: "English",
         Spanish: "Spanish",
-        German: "German"
+        German: "German",
+        Italian: "Italian"
     }, 
     options: {
         buttons: {
@@ -33,13 +34,17 @@ export const table: Locale = {
                 about: "About",
                 home: "Home",
                 discord: "Discord",
+                partners: "Partners",
                 status: "Status",
                 login: "Login"
             },
     
             user_dropdown: {
+                edit: "Edit Profile",
                 settings: "Settings", 
-                dashboard: "Dashboard"
+                dashboard: "Dashboard",
+                profile: "View Profile",
+                logout: "Logout"
             },
     
             news_banner: {
