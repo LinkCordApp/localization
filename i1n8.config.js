@@ -3,7 +3,8 @@ module.exports = {
   locales: [
     'English', 
     'Spanish',
-    'German'
+    'German',
+    'Italian'
   ],
   pages: {
     '*': ['common'],
