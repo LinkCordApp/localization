@@ -5,6 +5,7 @@ module.exports = {
     'Spanish',
     'German',
     'Italian'
+    'Swedish'
   ],
   pages: {
     '*': ['common'],
