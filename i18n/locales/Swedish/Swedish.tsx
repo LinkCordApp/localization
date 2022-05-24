@@ -273,7 +273,7 @@ export const table: Locale = {
                         item_1: "Tillhandahålla, driva och underhålla vår webbplats och tjänster.",
                         item_2: "Förbättra, anpassa och utöka vår webbplats och tjänster.",
                         item_3: "Förstå och analysera hur du använder och interagerar med vår webbplats.",
-                        item_4: "Utveckla och implementera nya produkter, tjänster, funktioner och funktionalitet."",
+                        item_4: "Utveckla och implementera nya produkter, tjänster, funktioner och funktionalitet.",
                         item_5: "Kommunicera med dig, antingen direkt eller genom någon av våra partners.",
                         item_6: "Skicka meddelanden, uppdateringar, varningar och påminnelser till dig.",
                         item_7: "Hitta och förhindra alla former av bedrägerier eller sårbarheter.",
