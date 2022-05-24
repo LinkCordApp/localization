@@ -4,7 +4,7 @@ module.exports = {
     'English', 
     'Spanish',
     'German',
-    'Italian'
+    'Italian',
     'Swedish'
   ],
   pages: {
