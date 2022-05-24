@@ -230,7 +230,7 @@ export const table: Locale = {
                 },
                 links: {
                     title: "Länkar",
-                    description: "Link Cord har inte granskat alla webbplatser som är länkade till sin webbplats och är inte ansvarig för innehållet på någon sådan länkad webbplats. Förekomsten av någon länk innebär inte att Link Cord godkänner webbplatsen. Användningen av någon länkad webbplats sker på användarens egen risk.",",
+                    description: "Link Cord har inte granskat alla webbplatser som är länkade till sin webbplats och är inte ansvarig för innehållet på någon sådan länkad webbplats. Förekomsten av någon länk innebär inte att Link Cord godkänner webbplatsen. Användningen av någon länkad webbplats sker på användarens egen risk.",
                 },
                 modifications: {
                     title: "Ändringar",
