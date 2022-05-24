@@ -5,7 +5,10 @@ Localization files for the Link Cord Website.
 
 ## Supported Languages
 - English
-- Spansih
+- German
+- Italian
+- Spanish
+- Swedish
 
 ---
 
