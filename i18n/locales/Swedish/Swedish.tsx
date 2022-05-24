@@ -10,7 +10,7 @@ export const table: Locale = {
         English: "English",
         Spanish: "Spanish",
         German: "German",
-        Italian: "Italian"
+        Italian: "Italian",
         Swedish: "Swedish"
     }, 
     options: {
