@@ -218,7 +218,7 @@ export const table: Locale = {
                 },
                 disclaimer: {
                     title: "varning",
-                    description: "Allt material på Link Cord-webbplatsen tillhandahålls "i befintligt skick". Link Cord ger inga garantier, kan det vara uttryckta eller underförstådda, och förnekar därför alla andra garantier. Dessutom gör Link Cord inga utfästelser om riktigheten eller tillförlitligheten av användningen av materialet på sin webbplats eller på annat sätt relaterat till sådant material eller några webbplatser som är länkade till denna webbplats.",
+                    description: "Allt material på Link Cord-webbplatsen tillhandahålls \"i befintligt skick\". Link Cord ger inga garantier, kan det vara uttryckta eller underförstådda, och förnekar därför alla andra garantier. Dessutom gör Link Cord inga utfästelser om riktigheten eller tillförlitligheten av användningen av materialet på sin webbplats eller på annat sätt relaterat till sådant material eller några webbplatser som är länkade till denna webbplats.",
                 },
                 limitations: {
                     title: "Begränsningar",
