@@ -212,7 +212,7 @@ export const table: Locale = {
                         item_2: "Använd materialet för något kommersiellt syfte eller för någon offentlig visning;",
                         item_3: "Försök att bakåtkonstruera all programvara som finns på Link Cords webbplats;",
                         item_4: "Ta bort all copyright eller andra äganderättsbeteckningar från materialet; eller",
-                        item_5: "Överföra materialet till en annan person eller "spegla" materialet på någon annan server."
+                        item_5: "Överföra materialet till en annan person eller \"spegla\" materialet på någon annan server."
                     },
                     conclusion: "Detta kommer att tillåta Link Cord att avslutas vid brott mot någon av dessa begränsningar. Vid uppsägning kommer även din visningsrätt att upphöra och du bör förstöra allt nedladdat material i din ägo oavsett om det är tryckt eller elektroniskt format."
                 },
