@@ -33,8 +33,8 @@ export const table: Locale = {
             links: {
                 about: "Über uns",
                 home: "Startseite",
-                discord: "Diskord",
-                partners: "Partners",
+                discord: "Discord",
+                partners: "Partner",
                 status: "Status",
                 login: "Anmeldung"
             },
@@ -110,7 +110,7 @@ export const table: Locale = {
             }
         },
         status_page: {
-            operational: "Alle Systeme funktional!",
+            operational: "Alle Systeme laufen!",
             minor_outage: "Kleine Störung",
             service_list: {
                 authorization: "Autorisierung",
@@ -133,7 +133,7 @@ export const table: Locale = {
                 options: {
                     username: 'Benutzername',
                     website: 'Website',
-                    discord: 'Diskord',
+                    discord: 'Discord',
                     blog: 'Blog'
                 }
             },
@@ -170,26 +170,26 @@ export const table: Locale = {
             title2: "Einstellungen",
             description: "Passen Sie Ihr Link Cord Erlebnis an!",
             themes: {
-                title1: "Thema",
+                title1: "Farbschema",
                 title2: "Einstellungen",
-                current: "Aktuelles Thema:",
+                current: "Aktuelles Farbschema:",
                 description: "Wählen Sie aus einer unserer schönen vorkonfigurierten Liste von Website-Themen!",
                 gray: {
                     title: "Wählen Sie ein graues Thema und einen grauen Akzent",
                     list: {
                         theme_1: "Teal Dunkel",
-                        theme_2: "Blaugrünes Licht",
+                        theme_2: "Blaugrün/Hell",
                         theme_3: "Unscharf Dunkel",
-                        theme_4: "Verschwommenes Licht"
+                        theme_4: "Verschwommen/Hell"
                     }
                 }, 
                 slate: {
                     title: "Wählen Sie ein Schiefermotiv und einen Akzent",
                     list: {
                         theme_1: "Teal Dunkel",
-                        theme_2: "Blaugrünes Licht",
+                        theme_2: "Blaugrün/Hell",
                         theme_3: "Unscharf Dunkel",
-                        theme_4: "Verschwommenes Licht"
+                        theme_4: "Verschwommen/Hell"
                     }
                 }
             }
@@ -335,7 +335,7 @@ export const table: Locale = {
                 sections: {
                     info: {
                         section_title: "Info",
-                        primary_link: "Über",
+                        primary_link: "Über uns",
                         secondary_link: "Team" 
                     },
                     user: {
@@ -345,7 +345,7 @@ export const table: Locale = {
                     },
                     support: {
                         section_title: "Support",
-                        primary_link: "Diskord",
+                        primary_link: "Discord",
                         secondary_link: "Twitter"
                     },
                     legal: {
