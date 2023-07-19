@@ -104,18 +104,8 @@ export const table: Locale = {
                     role: "Sōsetsu-sha",
                     desc: "Furīransu no sofutō~ea kaihatsu-sha.",
                 },
-                dillon: {
-                    name: "Dillon",
-                    role: "Deberoppā",
-                    desc: "Furusutakku sofutō~ea kaihatsu-sha. ",
-                },
                 rizon: {
                     name: "Rizon",
-                    role: "Deberoppā",
-                    desc: "Furusutakku sofutō~ea kaihatsu-sha.",
-                },
-                seren: {
-                    name: "Seren_Modz 21",
                     role: "Deberoppā",
                     desc: "Furusutakku sofutō~ea kaihatsu-sha.",
                 },

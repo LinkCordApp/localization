@@ -1,86 +1,88 @@
 import type { Locale } from "../../typings/locale";
 
 export const table: Locale = {
-    locale: "English",
-    name: "English",
+    locale: "Swedish",
+    name: "Swedish",
     icon: "/en-US.png",
     title: "Link Cord",
-    cookies: "We use cookies!",
+    cookies: "Vi använder cookies!",
     locales: {
         English: "English",
         Spanish: "Spanish",
         German: "German",
         Italian: "Italian",
+        Swedish: "Swedish",
+        Japanese: "Japanese",
     },
     options: {
         buttons: {
             discord: {
-                btn_title: "Our Discord",
+                btn_title: "Vår Discord",
             },
             twitter: {
-                btn_title: "Our Twitter",
+                btn_title: "Vår Twitter",
             },
             support: {
-                btn_title: "Support",
+                btn_title: "Stöd",
             },
             home: {
-                btn_title: "Back Home",
+                btn_title: "Tillbaka hem",
             },
         },
     },
     navbar_menu: {
         title: "Link Cord",
         links: {
-            about: "About",
-            home: "Home",
+            about: "Handla om",
+            home: "Hem",
             discord: "Discord",
             partners: "Partners",
             status: "Status",
-            login: "Login",
+            login: "Logga in",
         },
 
         user_dropdown: {
-            edit: "Edit Profile",
-            settings: "Settings",
-            dashboard: "Dashboard",
-            profile: "View Profile",
-            logout: "Logout",
+            edit: "Redigera profil",
+            settings: "inställningar",
+            dashboard: "instrumentbräda",
+            profile: "Visa profil",
+            logout: "Logga ut",
         },
 
         news_banner: {
-            primary_title: "We stand with Ukraine",
-            secondary_title: "Glory to Ukraine.",
-            button: "Donate here!",
+            primary_title: "Vi står med Ukraina",
+            secondary_title: "Ära till Ukraina.",
+            button: "Donera här!",
         },
     },
     home_page: {
         title: "Link Cord",
         description:
-            "Create your custom Profile Page add your Social Media Links and share it for the world to see.",
+            "Skapa din anpassade profilsida, lägg till dina sociala medialänkar och dela den så att världen kan se den.",
         features: {
             customProfiles: {
-                feat_title: "Customizable Profiles",
+                feat_title: "Anpassningsbara profiler",
                 feat_description:
-                    "Customize your Profile to suit all your Needs",
+                    "Anpassa din profil för att passa alla dina behov",
             },
             noHiddenFees: {
-                feat_title: "No hidden fees",
-                feat_description: "We will never Charge you for our Services",
+                feat_title: "Inga dolda avgifter",
+                feat_description: "Vi kommer aldrig att debitera dig för våra tjänster",
             },
             activeSupport: {
-                feat_title: "Active Support",
+                feat_title: "Aktiv support",
                 feat_description:
-                    "Our Discord Staff are Usually Online and Ready to help!",
+                    "Vår Discord-personal är vanligtvis online och redo att hjälpa till!",
             },
             vanityURL: {
                 feat_title: "Vanity URL(s)",
                 feat_description:
-                    "Share your Profile with a custom linkcord.bio/endpoint!",
+                    "Dela din profil med en anpassad linkcord.bio/endpoint!",
             },
         },
         get_started: {
-            primary: "What are you waiting for!",
-            secondary: "Start using Link Cord now.",
+            primary: "Vad väntar du på!",
+            secondary: "Börja använda Link Cord nu.",
         },
     },
     about_page: {
@@ -88,30 +90,30 @@ export const table: Locale = {
             primary_text: "About",
             secondary_text: "Link Cord",
             description:
-                "Link Cord is your Centralized solution for all your Link in Bio needs. Create a Custom Profile, Add your Social Media Links and share it for the whole world to see.",
+                "Link Cord är din centraliserade lösning för alla dina Link in Bio-behov. Skapa en anpassad profil, lägg till dina sociala medialänkar och dela den så att hela världen kan se den.",
         },
         team: {
             title: {
-                primary_text: "Our",
+                primary_text: "Vår",
                 secondary_text: "Team",
             },
             staff: {
                 toxic: {
                     name: "Tyler",
-                    role: "Founder",
-                    desc: "Freelance Software Developer.",
+                    role: "Grundare",
+                    desc: "Frilansande mjukvaruutvecklare.",
                 },
                 rizon: {
                     name: "Rizon",
-                    role: "Developer",
-                    desc: "Fullstack Software Developer.",
+                    role: "Utvecklare",
+                    desc: "Fullstack mjukvaruutvecklare.",
                 },
             },
         },
     },
     status_page: {
-        operational: "All systems Operational",
-        minor_outage: "Minor Outage",
+        operational: "Alla system i drift",
+        minor_outage: "Mindre avbrott",
         service_list: {
             authorization: "Authorization",
             cloudflare: "Cloudflare",
@@ -121,15 +123,15 @@ export const table: Locale = {
     },
     dashboard_page: {
         note: {
-            flag: "NOTE",
-            title: "A Username is required to interact with and view your profile page!",
+            flag: "NOTERA",
+            title: "Ett användarnamn krävs för att interagera med och se din profilsida!",
         },
         buttons: {
-            view: "View Page!",
-            auth: "Logout",
+            view: "Visa sida!",
+            auth: "Logga ut",
         },
         website: {
-            title: "Website's and Username",
+            title: "Webbplatsens och användarnamnet",
             options: {
                 username: "Username",
                 website: "Website",
@@ -138,7 +140,7 @@ export const table: Locale = {
             },
         },
         socials: {
-            title: "Social Media Links",
+            title: "Länkar till sociala medier",
             options: {
                 instagram: "Instagram",
                 facebook: "Facebook",
@@ -149,14 +151,14 @@ export const table: Locale = {
             },
         },
         music_promo: {
-            title: "Music Promo Links",
+            title: "Musikkampanjlänkar",
             options: {
                 spotify: "Spotify",
                 soundcloud: "Soundcloud",
             },
         },
         developer: {
-            title: "Developer Links",
+            title: "Utvecklarlänkar",
             options: {
                 github: "GitHub",
                 gitlab: "GitLab",
@@ -165,7 +167,7 @@ export const table: Locale = {
             },
         },
         partner: {
-            title: "Partner Links",
+            title: "Partnerlänkar",
             options: {
                 IBL: "Infinity Bot List",
                 JobCord: "JobCord",
@@ -173,17 +175,17 @@ export const table: Locale = {
         },
     },
     settings_page: {
-        title1: "User",
-        title2: "Settings",
-        description: "Customize your Link Cord Experience!",
+        title1: "Användare",
+        title2: "inställningar",
+        description: "Anpassa din Link Cord Experience!",
         themes: {
-            title1: "Theme",
-            title2: "Settings",
-            current: "Current Theme:",
+            title1: "Tema",
+            title2: "inställningar",
+            current: "Aktuellt tema:",
             description:
-                "Choose from one of our Beautiful Pre-configured list of Website Themes!",
+                "Välj från en av våra vackra förkonfigurerade lista med webbplatsteman!",
             gray: {
-                title: "Select a Gray Theme and Accent",
+                title: "Välj ett grått tema och accent",
                 list: {
                     theme_1: "Teal Dark",
                     theme_2: "Teal Light",
@@ -192,7 +194,7 @@ export const table: Locale = {
                 },
             },
             slate: {
-                title: "Select a Slate Theme and Accent",
+                title: "Välj ett skiffertema och accent",
                 list: {
                     theme_1: "Teal Dark",
                     theme_2: "Teal Light",
@@ -203,193 +205,193 @@ export const table: Locale = {
         },
     },
     terms_page: {
-        title_txt1: "Terms of",
+        title_txt1: "Termer av",
         title_txt2: "Service",
         description:
-            "These Terms of Service ('Terms') govern your access to and use of the Link Cord website (linkcord.bio), products, and services ('Products'). Please read these Terms carefully, and contact us if you have any questions. By accessing or using our Products, you agree to be bound by these Terms and by our Privacy Policy.",
+            "Dessa användarvillkor ('Villkor') reglerar din åtkomst till och användning av Link Cord-webbplatsen (linkcord.bio), produkter och tjänster ('Produkter'). Läs dessa villkor noggrant och kontakta oss om du har några frågor. Genom att komma åt eller använda våra produkter samtycker du till att vara bunden av dessa villkor och av vår integritetspolicy.",
         sections: {
             terms: {
-                title: "Terms",
+                title: "Termer",
                 description:
-                    "By accessing the Link Cord Website, Accessible from linkcord.bio, you are agreeing to be bound by these Terms and Conditions and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.",
+                    "Genom att gå in på Link Cord-webbplatsen, tillgänglig från linkcord.bio, samtycker du till att vara bunden av dessa villkor och samtycker till att du är ansvarig för avtalet med tillämpliga lokala lagar. Om du inte håller med om någon av dessa villkor är du förbjuden att komma åt denna webbplats. Materialet på denna webbplats är skyddat av upphovsrätt och varumärkeslagar.",
             },
             use_license: {
-                title: "Use License",
+                title: "Använd licens",
                 description:
-                    "Permission is granted to temporarily download one copy of the materials on Link Cord's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
+                    "Tillåtelse ges att tillfälligt ladda ner en kopia av materialet på Link Cords webbplats endast för personlig, icke-kommersiell tillfällig visning. Detta är beviljande av en licens, inte en överföring av titel, och under denna licens får du inte:",
                 list_items: {
-                    item_1: "Modify or copy the materials;",
-                    item_2: "Use the materials for any commercial purpose or for any public display;",
-                    item_3: "Attempt to reverse engineer any software contained on Link Cord's Website;",
-                    item_4: "Remove any copyright or other proprietary notations from the materials; or",
-                    item_5: "Transferring the materials to another person or 'mirror' the materials on any other server.",
+                    item_1: "Ändra eller kopiera materialet;",
+                    item_2: "Använd materialet för något kommersiellt syfte eller för någon offentlig visning;",
+                    item_3: "Försök att reverse engineering av programvara som finns på Link Cords webbplats;",
+                    item_4: "Ta bort all upphovsrätt eller andra äganderättsbeteckningar från materialet; eller",
+                    item_5: "Överföra materialet till en annan person eller 'spegla' materialet på någon annan server.",
                 },
                 conclusion:
-                    "This will allow Link Cord to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format.",
+                    "Detta kommer att tillåta Link Cord att avslutas vid brott mot någon av dessa restriktioner. Vid uppsägning kommer även din visningsrätt att upphöra och du bör förstöra allt nedladdat material i din ägo oavsett om det är tryckt eller elektroniskt format.",
             },
             disclaimer: {
-                title: "Disclaimer",
+                title: "varning",
                 description:
-                    "All the materials on Link Cord Website are provided 'as is'. Link Cord makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Link Cord does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.",
+                    "Allt material på Link Cord-webbplatsen tillhandahålls 'i befintligt skick'. Link Cord ger inga garantier, kan det vara uttryckta eller underförstådda, och förnekar därför alla andra garantier. Dessutom gör Link Cord inga utfästelser om riktigheten eller tillförlitligheten av användningen av materialet på sin webbplats eller på annat sätt relaterad till sådant material eller några webbplatser som är länkade till denna webbplats.",
             },
             limitations: {
-                title: "Limitations",
+                title: "Begränsningar",
                 description:
-                    "Link Cord or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Link Cord Website, even if Link Cord or an authorized representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.",
+                    "Link Cord eller dess leverantörer kommer inte att hållas ansvariga för några skador som uppstår vid användning eller oförmåga att använda materialet på Link Cord-webbplatsen, även om Link Cord eller en auktoriserad representant för denna webbplats har underrättats, muntligt eller skriftligt, om möjligheten till sådan skada. Vissa jurisdiktioner tillåter inte begränsningar av underförstådda garantier eller begränsningar av ansvar för tillfälliga skador, dessa begränsningar kanske inte gäller dig.",
             },
             revisions: {
-                title: "Revisions and Errata",
+                title: "Revisioner och Errata",
                 description:
-                    "The materials appearing on Link Cord Website may include technical, typographical, or photographic errors. Link Cord will not promise that any of the materials in this Website are accurate, complete, or current. Link Cord may change the materials contained on its Website at any time without notice. Link Cord does not make any commitment to update the materials.",
+                    "Materialet som visas på Link Cord-webbplatsen kan innehålla tekniska, typografiska eller fotografiska fel. Link Cord lovar inte att något av materialet på denna webbplats är korrekt, fullständigt eller aktuellt. Link Cord kan ändra materialet på dess webbplats när som helst utan föregående meddelande. Link Cord förbinder sig inte att uppdatera materialet.",
             },
             links: {
                 title: "Links",
                 description:
-                    "Link Cord has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Link Cord of the site. The use of any linked website is at the user's own risk.",
+                    "Link Cord har inte granskat alla webbplatser som är länkade till sin webbplats och är inte ansvarig för innehållet på någon sådan länkad webbplats. Förekomsten av någon länk innebär inte att Link Cord godkänner webbplatsen. Användningen av någon länkad webbplats sker på användarens egen risk.",
             },
             modifications: {
-                title: "Modifications",
+                title: "Ändringar",
                 description:
-                    "Link Cord may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.",
+                    "Link Cord kan när som helst revidera dessa användarvillkor för sin webbplats utan föregående meddelande. Genom att använda denna webbplats samtycker du till att vara bunden av den aktuella versionen av dessa användarvillkor.",
             },
             your_privacy: {
-                title: "Your Privacy",
+                title: "Din integritet",
                 base_text: {
-                    text_1: "Please read our",
-                    text_2: "Privacy Policy",
-                    text_3: "Page.",
+                    text_1: "Vänligen läs vår",
+                    text_2: "Integritetspolicy",
+                    text_3: "Sida.",
                 },
             },
             governing_law: {
-                title: "Governing Law",
+                title: "Gällande lag",
                 description:
-                    "Any claim related to Link Cord Website shall be governed by the laws of Canada without regards to its conflict of law provisions.",
+                    "Alla anspråk relaterade till Link Cord-webbplatsen ska styras av Kanadas lagar utan hänsyn till dess lagkonfliktbestämmelser.",
             },
         },
     },
     privacy_page: {
-        title_txt1: "Privacy",
-        title_txt2: "Policy",
+        title_txt1: "Integritet",
+        title_txt2: "Politik",
         description1:
-            "At Link Cord accessible from linkcord.bio, one of our main priorities is the privacy of our users and visitors. This privacy policy documentation contains info on the types of information that is collected and recorded by Link Cord and how we use it.",
+            "På Link Cord tillgänglig från linkcord.bio är en av våra huvudprioriteringar integriteten för våra användare och besökare. Denna integritetspolicydokumentation innehåller information om vilka typer av information som samlas in och registreras av Link Cord och hur vi använder den.",
         description2:
-            "If you have any questions or require more information about our Privacy Policy do not hesitate to contact us via the Support Button.",
+            "Om du har några frågor eller behöver mer information om vår integritetspolicy, tveka inte att kontakta oss via supportknappen.",
         description3:
-            "This Privacy Policy applies only to our online activities and is valid for visitors of our website with regards to the information that they shared with Link Cord. This policy is not applicable to any information collected offline or via the channels other then this website.",
+            "Denna integritetspolicy gäller endast våra onlineaktiviteter och är giltig för besökare på vår webbplats med avseende på informationen som de delat med Link Cord. Denna policy är inte tillämplig på information som samlas in offline eller via andra kanaler än denna webbplats.",
         sections: {
             your_consent: {
-                title: "Your Consent",
-                desc1: "By using our website you are agreeing to be bound to our Privacy Policy and",
-                desc2: "Terms of Service",
+                title: "Ditt samtycke",
+                desc1: "Genom att använda vår webbplats samtycker du till att vara bunden till vår integritetspolicy och",
+                desc2: "Användarvillkor",
             },
             collected_data: {
-                title: "Collected Data",
+                title: "Insamlade data",
                 description:
-                    "We collect and store several different types of information such as your Google Username, Email, Avatar, 2Factor Status and Authorization Token.",
+                    "Vi samlar in och lagrar flera olika typer av information som ditt Google-användarnamn, e-post, Avatar, 2Factor Status och Auktoriseringstoken.",
             },
             data_usage: {
-                title: "How we use your Information",
+                title: "Hur vi använder din information",
                 description:
-                    "We use the information we collect in various ways. Including to:",
+                    "Vi använder informationen vi samlar in på olika sätt. Inklusive till:",
                 list_items: {
-                    item_1: "Provide, operate and maintain our Website and Services.",
-                    item_2: "Improve, personalize and expand our Website and Services.",
-                    item_3: "Understand and Analyze how you use and interact with our Website.",
-                    item_4: "Develop and Implement new products, services, features and functionality.",
-                    item_5: "Communicate with you, either directly or through one of our partners.",
-                    item_6: "Send you notifications, updates, alerts and reminders.",
-                    item_7: "Find and prevent any forms of Fraud or Vulnerability's.",
+                    item_1: "Tillhandahålla, driva och underhålla vår webbplats och våra tjänster.",
+                    item_2: "Förbättra, anpassa och utöka vår webbplats och tjänster.",
+                    item_3: "Förstå och analysera hur du använder och interagerar med vår webbplats.",
+                    item_4: "Utveckla och implementera nya produkter, tjänster, funktioner och funktionalitet.",
+                    item_5: "Kommunicera med dig, antingen direkt eller genom någon av våra partners.",
+                    item_6: "Skicka meddelanden, uppdateringar, varningar och påminnelser till dig.",
+                    item_7: "Hitta och förhindra alla former av bedrägerier eller sårbarheter.",
                 },
             },
             log_files: {
-                title: "Log Files",
+                title: "Loggfiler",
                 description:
-                    "linkcord.bio follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this as part of the hosting services analytics. The information collected by log files can include Internet Protocol (IP) addresses, brwoser type, Internet Server Provider (ISP), date and time stamp, referring/exit pages. and possibly the number of unique page views. These are not linked to any information that is personally identifiable. The purpose of collecting this information is for analyzing trends, administering the site, tracking a users movement on the website, and gathering demographic information.",
+                    "linkcord.bio följer en standardprocedur för att använda loggfiler. Dessa filer loggar besökare när de besöker webbplatser. Alla webbhotell gör detta som en del av analysen av webbhotelltjänster. Informationen som samlas in av loggfiler kan inkludera IP-adresser (Internet Protocol), webbläsartyp, Internet Server Provider (ISP), datum- och tidsstämpel, referens-/utgångssidor. och möjligen antalet unika sidvisningar. Dessa är inte kopplade till någon information som är personligt identifierbar. Syftet med att samla in denna information är för att analysera trender, administrera webbplatsen, spåra en användares rörelse på webbplatsen och samla in demografisk information.",
             },
             cookies: {
-                title: "Cookies and Web Beacons",
+                title: "Cookies och webbsignaler",
                 description:
-                    "Like any other website, Link Cord uses cookies. These cookies are used to store information including visitors preferences. and the pages on the website that the visitor accessed or visited. This information is used to optimize the users experience by customizing our web page content based on the visitors browser type and other information.",
+                    "Liksom alla andra webbplatser använder Link Cord cookies. Dessa cookies används för att lagra information inklusive besökarnas preferenser. och de sidor på webbplatsen som besökaren besökte eller besökte. Denna information används för att optimera användarupplevelsen genom att anpassa innehållet på vår webbsida baserat på besökarens webbläsartyp och annan information.",
             },
             advertising: {
-                title: "Advertising Partners",
+                title: "Annonspartners",
                 description:
-                    "Third-party ad servers or ad networks use technologies like Cookies, JavaScript or Web Beacons that are used in their respective advertisements and links that appear on Link Cord which are sent directly to the users browser. They automatically receive your IP Address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on website that you visit. Link Cord has no access to or control over these cookies.",
+                    "Tredjeparts annonsservrar eller annonsnätverk använder teknik som cookies, JavaScript eller webbsignaler som används i deras respektive annonser och länkar som visas på Link Cord som skickas direkt till användarens webbläsare. De får automatiskt din IP-adress när detta inträffar. Dessa tekniker används för att mäta effektiviteten av deras reklamkampanjer och/eller för att anpassa annonsinnehållet som du ser på webbplatsen du besöker. Link Cord har ingen tillgång till eller kontroll över dessa cookies.",
             },
             third_partys: {
-                title: "Third Party Privacy Policy's",
+                title: "Tredje parts sekretesspolicy",
                 description:
-                    "This Privacy Policy Documentation does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. Additionally you can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers respective websites, documentation and settings",
+                    "Denna integritetspolicydokumentation gäller inte andra annonsörer eller webbplatser. Därför råder vi dig att konsultera respektive integritetspolicy för dessa tredjepartsannonsservrar för mer detaljerad information. Det kan innehålla deras praxis och instruktioner om hur man väljer bort vissa alternativ. Dessutom kan du välja att inaktivera cookies genom dina individuella webbläsaralternativ. För att få mer detaljerad information om cookiehantering med specifika webbläsare, kan den hittas på webbläsarens respektive webbplatser, dokumentation och inställningar",
             },
             ccpa_policy: {
-                title: "CCPA Protection Rights (Do not Sell my Personal Information)",
+                title: "CCPA-skyddsrättigheter (sälj inte min personliga information)",
                 description:
-                    "Under the CCPA, among other rights. California's Consumers have the right to:",
+                    "Enligt CCPA, bland andra rättigheter. Kaliforniens konsumenter har rätt att:",
                 list_items: {
-                    item_1: "Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.",
-                    item_2: "Request that a business delete any personal data about the consumer that a business has collected.",
-                    item_3: "Request that a business that sells a consumer's personal data, not sell the consumer's personal data.",
+                    item_1: "Begär att ett företag som samlar in en konsuments personuppgifter avslöjar de kategorier och specifika delar av personuppgifter som ett företag har samlat in om konsumenter.",
+                    item_2: "Begär att ett företag raderar eventuella personuppgifter om konsumenten som ett företag har samlat in.",
+                    item_3: "Begär att ett företag som säljer en konsuments personuppgifter inte säljer konsumentens personuppgifter.",
                 },
                 conclusion:
-                    "If you make a request we have up to one month to provide a response. If you would like to exercise any of these rights please",
-                conclusion_link: "Contact Us",
+                    "Om du gör en begäran har vi upp till en månad på oss att ge ett svar. Om du vill utöva någon av dessa rättigheter vänligen",
+                conclusion_link: "Kontakta oss",
             },
             gdpr_policy: {
-                title: "GDPR Data Protection Rights",
+                title: "GDPR Dataskyddsrättigheter",
                 description:
-                    "We would like to make sure you are fully aware of all your data protection rights. Every user is entitled to the following:",
+                    "Vi vill se till att du är fullt medveten om alla dina dataskyddsrättigheter. Varje användare har rätt till följande:",
                 list_items: {
-                    item_1: "The right to erasure - You have the right to request that we erase your personal data under certain conditions.",
-                    item_2: "The right to restrict processing - You have the right to request that we restrict the processing of your data under certain conditions.",
-                    item_3: "The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.",
-                    item_4: "The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.",
+                    item_1: "Rätten till radering – Du har rätt att begära att vi raderar dina personuppgifter under vissa förutsättningar.",
+                    item_2: "Rätten att begränsa behandlingen – Du har rätt att begära att vi begränsar behandlingen av dina uppgifter under vissa förutsättningar.",
+                    item_3: "Rätt att invända mot behandling – Du har rätt att invända mot vår behandling av dina personuppgifter, under vissa förutsättningar.",
+                    item_4: "Rätten till dataportabilitet – Du har rätt att begära att vi överför de uppgifter som vi har samlat in till en annan organisation, eller direkt till dig, under vissa förutsättningar.",
                 },
                 conclusion:
-                    "If you make a request we have up to one month to provide a response. If you would like to exercise these rights please",
-                conclusion_link: "Contact Us",
+                    "Om du gör en begäran har vi upp till en månad på oss att ge ett svar. Om du vill utöva dessa rättigheter vänligen",
+                conclusion_link: "Kontakta oss",
             },
             childrens_info: {
-                title: "Children's Information",
+                title: "Barninformation",
                 description:
-                    "Another part of our priority is providing protection for children while using the internet. We encourage parents and guardians to observe, monitor and/or participate in and guide the child(s) online activity and virtual footprint.",
+                    "En annan del av vår prioritet är att tillhandahålla skydd för barn när de använder internet. Vi uppmuntrar föräldrar och vårdnadshavare att observera, övervaka och/eller delta i och vägleda barnet/barnens onlineaktivitet och virtuella fotavtryck.",
                 conclusion:
-                    "Link Cord does not knowingly collect any Personally Identifiable Information from any child under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records in a timely fashion.",
+                    "Link Cord samlar inte medvetet in någon personligt identifierbar information från något barn under 13 år. Om du tror att ditt barn har lämnat denna typ av information på vår webbplats, rekommenderar vi starkt att du kontaktar oss omedelbart och vi kommer att göra vårt bästa för att omedelbart ta bort sådan information från våra register i god tid.",
             },
         },
     },
     footer: {
         vercel: {
-            powered_by: "Powered By:",
-            and_text: "and",
+            powered_by: "Drivs av:",
+            and_text: "och",
         },
         credits: {
-            copyright: "Link Cord - All rights reserved.",
+            copyright: "Link Cord - Alla rättigheter förbehållna.",
         },
         sections: {
             info: {
                 section_title: "Info",
-                primary_link: "About Us",
-                secondary_link: "Our Team",
+                primary_link: "Om oss",
+                secondary_link: "Vårt lag",
             },
             user: {
-                section_title: "User",
-                primary_link: "Dashboard",
-                secondary_link: "Settings",
+                section_title: "Användare",
+                primary_link: "instrumentbräda",
+                secondary_link: "inställningar",
             },
             support: {
-                section_title: "Support",
+                section_title: "Stöd",
                 primary_link: "Discord",
                 secondary_link: "Twitter",
             },
             legal: {
-                section_title: "Legal",
-                primary_link: "Terms",
-                secondary_link: "Privacy",
+                section_title: "Rättslig",
+                primary_link: "Villkor",
+                secondary_link: "Integritet",
             },
             misc: {
-                section_title: "Misc",
+                section_title: "Övrigt",
                 primary_link: "Status",
-                secondary_link: "Blog",
+                secondary_link: "Blogg",
             },
         },
     },
