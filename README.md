@@ -1,6 +1,8 @@
 # Link Cord i18n
 Localization files for the Link Cord Website.
 
+[![Prettier](https://github.com/LinkCordApp/localization/actions/workflows/prettier.yml/badge.svg?branch=production)](https://github.com/LinkCordApp/localization/actions/workflows/prettier.yml)
+
 ---
 
 ## Supported Languages
