@@ -92,17 +92,7 @@ export interface Locale {
             role: string;
             desc: string;
           };
-          dillon: {
-            name: string;
-            role: string;
-            desc: string;
-          };
           rizon: {
-            name: string;
-            role: string;
-            desc: string;
-          };
-          seren: {
             name: string;
             role: string;
             desc: string;
@@ -169,7 +159,7 @@ export interface Locale {
         title: string;
         options: {
           IBL: string;
-          DscJobs: string;
+          JobCord: string;
         };
       };
     };
