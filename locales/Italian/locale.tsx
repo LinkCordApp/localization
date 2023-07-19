@@ -101,18 +101,8 @@ export const table: Locale = {
           role: "Fondatore",
           desc: "Sviluppatore software freelance.",
         },
-        dillon: {
-          name: "Dillon",
-          role: "Sviluppatore",
-          desc: "Sviluppatore software fullstack.",
-        },
         rizon: {
           name: "Rizon",
-          role: "Sviluppatore",
-          desc: "Sviluppatore software fullstack.",
-        },
-        seren: {
-          name: "Seren_Modz 21",
           role: "Sviluppatore",
           desc: "Sviluppatore software fullstack.",
         },
@@ -179,7 +169,7 @@ export const table: Locale = {
       title: "Partner Links",
       options: {
         IBL: "Infinity Bot List",
-        DscJobs: "DscJobs",
+        JobCord: "JobCord",
       },
     },
   },
