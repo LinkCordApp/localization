@@ -364,7 +364,7 @@ export const table: Locale = {
             childrens_info: {
                 title: "Okosama-muke no jōhō ",
                 description:
-                "Watashitachi no yūsen jikō no mō 1-tsu wa, intānetto shiyō-chū no kodomo-tachi o hogo suru kotodesu. Watashitachiha, oya ya hogo-sha ga kodomo-tachi no onrain akutibiti to kasō futtopurinto o kansatsu, kanshi, oyobi/ matawa sanka shi, shidō suru koto o o susume shimasu.",
+                    "Watashitachi no yūsen jikō no mō 1-tsu wa, intānetto shiyō-chū no kodomo-tachi o hogo suru kotodesu. Watashitachiha, oya ya hogo-sha ga kodomo-tachi no onrain akutibiti to kasō futtopurinto o kansatsu, kanshi, oyobi/ matawa sanka shi, shidō suru koto o o susume shimasu.",
                 conclusion:
                     "Rinku Cord wa, 13-sai-miman no okosama kara koi ni kojin o tokutei dekiru jōhō o shūshū suru koto wa arimasen. Okosama ga kono tane no jōhō o tōsha no u~ebu saito ni teikyō shita to omowa reru baai wa, tadachini tōsha ni go renraku itadaku koto o tsuyoku o susume shimasu. Kakaru jōhō o tōsha no kiroku kara tekiji ni sumiyakani sakujo shimasu.",
             },
