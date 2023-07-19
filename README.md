@@ -7,6 +7,7 @@ Localization files for the Link Cord Website.
 - English
 - German
 - Italian
+- Spanish
 
 ---
 
