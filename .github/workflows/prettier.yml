@@ -1,6 +1,6 @@
 name: Prettier
 
-on: pull_request
+on: [push, pull_request]
 
 jobs:
     prettier:
@@ -10,7 +10,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
 
-            - name: Prettier 
+            - name: Prettier CI
               uses: creyD/prettier_action@v4.3
               with:
                   prettier_options: --write ./**/*.{js,jsx,ts,tsx}
