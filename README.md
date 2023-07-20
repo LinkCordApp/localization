@@ -8,6 +8,8 @@ Localization files for the Link Cord Website.
 - German
 - Italian
 - Spanish
+- Swedish
+- Japanese
 
 ---
 
